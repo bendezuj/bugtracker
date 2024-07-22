@@ -1,6 +1,6 @@
 # bugtracker
 Start Docker: 
-docker run -it --rm bugtracker
+docker run -it --rm bugtracker OR docker run -it -p 8080:8080 bugtracker
 
 **Rebuild Docker (if changes applied):**
 mvn clean package 
